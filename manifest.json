@@ -1,0 +1,20 @@
+{
+    "name": "Plemiona",
+    "description": "Wtyczka sluzy do obliczania ilosci wojska",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "icons": {
+        "16": "./obj.png"
+    },
+    "background":{
+        "scripts": ["./background.js"]
+    },
+    "options_page": "./options.html",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "https://pl159.plemiona.pl/game.php?screen=overview&intro"
+    ]
+}
